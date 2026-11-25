@@ -1,0 +1,40 @@
+# The card of your extension: Tensela reads it before installing it and shows it to the person.
+# Change every line (the id is also the name of your folder and, with "-" as "_", of the Python package beside this).
+id = "my-extension"
+name = "My extension"
+version = "0.1.0"
+author = "Your name"
+description = "What it adds to Tensela, in one or two sentences."
+tensela = "0.9"                                   # the oldest Tensela it works with
+licence = "GPL-3.0-or-later"                      # choose yours (an SPDX name)
+website = "https://example.org/my-extension"      # where it is told about (optional)
+issues = "https://example.org/my-extension/issues" # where to report a problem (optional)
+source = "https://example.org/my-extension"       # its code (optional, but the catalogue asks for it)
+
+# What it may do besides computing, and why (say it in a sentence the person understands). Without this section,
+# the card says «Only computes». The keys: network, files, programs, local.
+# [permissions]
+# network = "to download the weather of the place"
+
+# The card in Spanish (other languages, the same way).
+[es]
+name = "Mi extensión"
+description = "Lo que le agrega a Tensela, en una o dos frases."
+
+# Its texts in Spanish: the names of its nodes and inputs, its menus, its messages.
+[translations.es]
+"Fold" = "Pliegue"
+"length" = "largo"
+"folds" = "pliegues"
+"rise" = "altura"
+"A folded line, as in a folded plate roof: its length, how many folds and how high." = "Una línea plegada, como en una cubierta plegada: su largo, cuántos pliegues y qué altura."
+"Count the nodes" = "Contar los nodos"
+"My extension" = "Mi extensión"
+"How many nodes the project has" = "Cuántos nodos tiene el proyecto"
+"The project has {n} nodes." = "El proyecto tiene {n} nodos."
+"Add a Fold" = "Agregar un Pliegue"
+"A new Fold node, seen in 3D (Ctrl+Z undoes it)" = "Un nodo Pliegue nuevo, visible en 3D (Ctrl+Z lo deshace)"
+"A Fold node" = "Un nodo Pliegue"
+"My extension: the node chosen" = "Mi extensión: el nodo elegido"
+"No node chosen." = "Ningún nodo elegido."
+"Chosen: {node} ({kind})." = "Elegido: {node} ({kind})."
